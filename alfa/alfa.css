@@ -1,0 +1,273 @@
+
+body{
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+    
+}
+#Headersection {
+    display: flex;
+    justify-content: space-between;
+    color: #e7f3ec;
+    font-size: 16px;
+    align-items: center;
+}
+#Headersection div ul{
+    
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 17px;
+    padding-right: 26px;
+
+}
+
+
+#Headersection div ul button{
+    width: 96px;
+    height: 34px;
+    border-radius: 8px;
+    border: 2px solid #e7f3ec;
+    background-color: transparent;
+    color: #e7f3ec;
+    font-size: 17px;
+    
+}
+#Headersection div h1 span{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 2;
+    
+}
+#Headersection div h1{
+    text-align: center;
+    font-size: 17px;
+    
+
+}
+#Bodysection{
+    text-align: center;
+    margin-top: 141px;
+}
+#Bodysection div h1{
+    font-size: 53px;
+    font-weight:1;
+    color : #fefdfd;
+    
+}
+#Bodysection div p{
+    font-size: 20px;
+    padding-top: 1px;
+    color : #cdcccb;
+}
+#Bodysection div #b1{
+    width: 186px;
+    height: 43px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid #e7f3ec;
+    color: #cdcccb;
+}
+#Bodysection div #b2{
+    width: 186px;
+    height: 43px;
+    background-color:transparent;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 2px solid #8e97a1;
+    color: #fefdfd;
+    margin-left: 22px;
+}
+#Bodysection div button{
+    margin-top: 17px;
+}
+#Contentsection{
+    display: flex;
+    width: 70%;
+    text-align: center;
+    background-color:#ffffff ;
+    margin: auto;
+    padding-top: 33px;
+    margin-top: 125px;
+    border-radius: 7px;
+}
+#Contentsection h1{
+    font-size: 35px;
+    color: #717171;
+    font-weight: lighter;
+    
+}
+#Contentsection p{
+    margin: auto;
+    width: 75%;
+    font-size: 17px;
+    color: #a5a7ac;
+    font-weight: lighter;
+    padding-top: 39px;
+    padding-bottom: 56px;
+    border-top: 2px solid #e5e5e5;
+}
+#Contentsection img{
+    width: 100%;
+    
+}
+#Iconsection{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    margin-top: 35px;
+    border-radius: 7px;
+    color: #64666e;
+
+}
+#Iconsection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center  ;
+    padding-top: 40px;
+}
+.fa.fa-bolt{
+    font-size: 40px;
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart{
+    font-size: 35px;
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 23px 23px;
+}
+.fa.fa-cloud{
+    font-size: 35px;
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 23px 23px;
+}
+.fa.fa-lock{
+    font-size: 50px;
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 29px;
+}
+#Iconsection #div1{
+
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+}
+#Iconsection #div4{
+    
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    bottom: 1px;
+}
+#Iconsection div h1{
+    font-size: 25px;
+}
+#Iconsection div p{
+    font-size: 17px;
+}
+#ImageSection{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    color: #64666e;
+
+}
+#ImageSection div{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+}
+#ImageSection div img{
+     width: 100%;
+     border-radius: 7px;
+}
+#ImageSection div h1{
+    padding-top: 25px;
+    font-size: 30px;
+}
+#ImageSection div button{
+    height: 50px;
+    width: 159px;
+    background-color: transparent;
+    color:#64666e ;
+    border: 2.5px solid #e7e7e7 ;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    font-size: 17px;
+}
+#ImageSection #div2{
+    margin-left: 38px;
+}
+#SignupSection{
+    text-align: center;
+    background-color: #e89980;
+    margin-top: 100px;
+}
+#SignupSection h2{
+    font-size: 35px;
+    color: #f0d2d9;
+    padding-top: 50px;
+}
+#SignupSection p{
+    color: #f0d2d9;
+    font-size: 17px;
+}
+#SignupSection input{
+    margin-top: 20px;
+    height: 48px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid #eba893;
+    background-color: #eba893;
+
+}
+#SignupSection ::placeholder{
+    color: white;
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    padding-left: 18px;
+}
+#SignupSection button{
+    margin-top: 20px;
+    
+    height: 52px;
+    width: 135px;
+    border: 1px solid;
+    border-radius: 7px;
+    color: #eab5a5;
+    background-color: white;
+    margin-left: 13px;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+#FooterSection {
+    color: #c6c6c6;
+    text-align: center;
+    margin-top: 70px;
+
+}
+#div5 {
+    font-size: 35px;
+    letter-spacing: 14px;
+}
+#div6 ul {
+    display: inline-flex;
+    list-style: none;
+    gap : 30px;
+}
